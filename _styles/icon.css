@@ -1,15 +1,7 @@
-.icon {
-  font-size: 1em;
-}
-
-span.icon {
-  line-height: 1;
-}
-
-span.icon > svg {
-  position: relative;
-  top: 0.1em;
-  height: 1em;
+.fas,
+.far,
+.fab {
+  display: inline;
 }
 
 /*# sourceMappingURL=icon.css.map */
