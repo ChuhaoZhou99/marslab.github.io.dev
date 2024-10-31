@@ -1,42 +1,23 @@
-h1 .anchor,
-h2 .anchor,
-h3 .anchor,
-h4 .anchor {
+.anchor {
   display: inline-block;
   position: relative;
   width: 0;
   margin: 0;
-  left: 10px;
-  color: #03a9f4;
+  left: 0.5em;
+  color: var(--primary) !important;
   opacity: 0;
+  font-size: 0.75em;
   text-decoration: none;
-  transition: opacity 0.25s ease, color 0.25s ease;
+  transition: opacity var(--transition), color var(--transition);
 }
-h1:hover .anchor,
-h1 .anchor:focus,
-h2:hover .anchor,
-h2 .anchor:focus,
-h3:hover .anchor,
-h3 .anchor:focus,
-h4:hover .anchor,
-h4 .anchor:focus {
+
+:hover > .anchor,
+.anchor:focus {
   opacity: 1;
 }
 
-[data-glow=true] {
-  animation: highlight_glow 2s;
-}
-
-@keyframes highlight_glow {
-  0% {
-    background: none;
-  }
-  10% {
-    background: #b3e5fc;
-  }
-  100% {
-    background: none;
-  }
+.anchor:hover {
+  color: var(--text) !important;
 }
 
 /*# sourceMappingURL=anchor.css.map */

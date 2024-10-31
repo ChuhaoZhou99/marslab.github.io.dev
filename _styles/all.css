@@ -1,5 +1,10 @@
-* {
-  font-family: "Lora", serif;
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 /*# sourceMappingURL=all.css.map */

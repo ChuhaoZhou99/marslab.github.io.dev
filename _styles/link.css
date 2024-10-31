@@ -1,10 +1,15 @@
 a {
-  color: #03a9f4;
-  transition: color 0.25s ease;
+  color: var(--primary);
+  transition: color var(--transition);
+  overflow-wrap: break-word;
 }
 
 a:hover {
-  color: #101010;
+  color: var(--text);
+}
+
+a:not([href]) {
+  color: var(--text);
 }
 
 /*# sourceMappingURL=link.css.map */
