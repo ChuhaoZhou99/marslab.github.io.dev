@@ -14,6 +14,7 @@
 .figure .figure_image img[data-default=true] {
   max-width: 400px;
   max-height: 300px;
+  display: block;
 }
 .figure .figure_caption {
   margin-top: 10px;
