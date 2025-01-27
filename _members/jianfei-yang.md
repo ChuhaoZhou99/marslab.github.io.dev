@@ -11,7 +11,7 @@ twitter: Jianfei_AI
 affiliation: Nanyang Technological University
 ---
 
-Dr. Yang is an Assistant Professor at Nanyang Technological University. His research interests include Physical AI, multimodal LLM, and robotics.
+Dr. Yang is an Assistant Professor at Nanyang Technological University. His research interests include Physical AI, multimodal LLM, and robotics. Test, Test, Test.
 
 ### Education
 - Ph.D. in AI, 2016-2020
