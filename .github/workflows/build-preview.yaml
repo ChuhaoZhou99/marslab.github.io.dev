@@ -30,12 +30,12 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.head_ref }}
 
-      - name: Install Ruby packages
-        if: github.event.action != 'closed'
-        uses: ruby/setup-ruby@v1.172.0
-        with:
-          ruby-version: "3.1"
-          bundler-cache: true
+      # - name: Install Ruby packages
+      #   if: github.event.action != 'closed'
+      #   uses: ruby/setup-ruby@v1.172.0
+      #   with:
+      #     ruby-version: "3.1"
+      #     bundler-cache: true
 
       - name: Get Pages url
         if: github.event.action != 'closed'
