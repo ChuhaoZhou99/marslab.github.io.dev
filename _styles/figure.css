@@ -5,6 +5,7 @@
   flex-direction: column;
   margin: 0 0;
   padding: 0;
+  display: block;
 }
 .figure:first-child {
   margin-top: 0;
@@ -13,11 +14,12 @@
   margin-bottom: 0;
 }
 .figure .figure_image img[data-default=true] {
-  max-width: 400px;
-  max-height: 300px;
+  max-width: 100%;
+  cmax-height: 100%;
   display: block;
   margin: 0;
   padding: 0;
+  object-fit: cover;
 }
 .figure .figure_caption {
   margin-top: 10px;
