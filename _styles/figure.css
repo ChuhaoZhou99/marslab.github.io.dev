@@ -14,11 +14,13 @@
 }
 .figure .figure_image img[data-default=true] {
   max-width: 400px;
-  max-height: 300px;
+  max-height: 350px;
   display: block;
   vertical-align: top;
   margin: 0;
   padding: 0;
+  line-height: 0;
+  background-color: inherit;
 }
 .figure .figure_caption {
   margin-top: 10px;
