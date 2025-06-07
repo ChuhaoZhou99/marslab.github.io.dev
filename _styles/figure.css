@@ -5,7 +5,6 @@
   flex-direction: column;
   margin: 0 0;
   padding: 0;
-  display: block;
 }
 .figure:first-child {
   margin-top: 0;
